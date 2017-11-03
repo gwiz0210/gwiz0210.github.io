@@ -69,7 +69,7 @@ b {
 .img-centered {
   display:block;
   margin:auto;
-	width: auto;
+	width: 100%;
   height: auto;
 }
 .circular-square {
@@ -206,6 +206,17 @@ a.button.blue-button:hover {
     line-height: 55px;
     cursor: pointer;
 }
+#cultiv8-img {
+	float: none;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-top: 2.997779%;
+  clear: none;
+  color: rgb(0, 0, 0);
+  max-width: 100%;
+  margin-right: auto;
+}
 #logo-design {
 	width: 500px;
 }
@@ -226,7 +237,7 @@ a.button.blue-button:hover {
 }
 #mobile-wireframe-image {
 	margin: 50px auto;
-  width: 530px;
+  width: 100%;
 }
 #turtle-results-image {
   width: 500px;
@@ -518,6 +529,12 @@ a.button.blue-button:hover {
     margin-top: 1.1875px;
     clear: none;
     margin-right: auto;
+	}
+	.sketches-images{
+		width: 25% !important;
+    height: auto;
+    margin: 0 auto;
+    display: inline;
 	}
 }
 @media only screen and (max-width: 971px){
