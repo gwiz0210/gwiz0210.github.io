@@ -253,6 +253,18 @@ a.button.blue-button:hover {
 	width: 650px;
 	margin-bottom: 100px;
 }
+#repi-image {
+	width: 860px;
+	margin-bottom: 100px;
+}
+#griot-image {
+	width: 800px;
+	margin-bottom: 100px;
+}
+#dmdc-image {
+	width: 800px;
+	margin-bottom: 100px;
+}
 #turtle-text {
 	padding: 0px 70px 0px 0px;
 }
@@ -550,6 +562,18 @@ a.button.blue-button:hover {
 	}
 	#nichd-image {
 		width: 90%;
+		margin-bottom: 100px;
+	}
+	#repi-image {
+		width: 100%;
+		margin-bottom: 100px;
+	}
+	#griot-image {
+		width: 80%;
+		margin-bottom: 100px;
+	}
+	#dmdc-image {
+		width: 80%;
 		margin-bottom: 100px;
 	}
 }
