@@ -249,6 +249,10 @@ a.button.blue-button:hover {
 	width: 500px;
 	margin-bottom: 100px;
 }
+#nichd-image {
+	width: 650px;
+	margin-bottom: 100px;
+}
 #turtle-text {
 	padding: 0px 70px 0px 0px;
 }
@@ -541,7 +545,11 @@ a.button.blue-button:hover {
     display: inline;
 	}
 	#logo-image-creation {
-		width: 70%;
+		width: 80%;
+		margin-bottom: 100px;
+	}
+	#nichd-image {
+		width: 90%;
 		margin-bottom: 100px;
 	}
 }
