@@ -245,6 +245,10 @@ a.button.blue-button:hover {
 #logo-results-text {
 	padding: 40px 0px 0px 0px;
 }
+#logo-image-creation {
+	width: 500px;
+	margin-bottom: 100px;
+}
 #turtle-text {
 	padding: 0px 70px 0px 0px;
 }
@@ -535,6 +539,10 @@ a.button.blue-button:hover {
     height: auto;
     margin: 0 auto;
     display: inline;
+	}
+	#logo-image-creation {
+		width: 70%;
+		margin-bottom: 100px;
 	}
 }
 @media only screen and (max-width: 971px){
