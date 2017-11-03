@@ -68,7 +68,9 @@ b {
 }
 .img-centered {
   display:block;
-    margin:auto;
+  margin:auto;
+	width: auto;
+  height: auto;
 }
 .circular-square {
   border-top-left-radius: 50% 50%;
@@ -463,3 +465,61 @@ a.button.blue-button:hover {
     display: inline-block;
     margin:0px 0px 0px 0px;
   }
+	#text-boxes {
+		float: none;
+    height: 268.015625px;
+    clear: none;
+    width: 91.825941%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5.877024%;
+    padding-bottom: 0%;
+    margin-bottom: 6%;
+	}
+	@media only screen and (max-width: 881px){
+	#ChallengeBox {
+    margin-top: 6%;
+    margin-left: 16.51%;
+    clear: none;
+    width: 27.843554%;
+    min-width: 225.26px;
+	}
+	#ToolBox {
+		margin-top: 6%;
+    margin-left: 0px;
+    clear: right;
+    margin-right: 16.98%;
+    float: right;
+    min-width: 225.26px;
+    width: 27.843554%;
+	}
+	#RoleBox {
+    margin-top: 6%;
+    clear: left;
+    min-width: 225.26px;
+    width: 27.843554%;
+    margin-left: 16.51%;
+	}
+	#SolutionBox {
+    margin-left: 0px;
+    margin-right: 16.98%;
+    float: right;
+    margin-top: 6%;
+    clear: none;
+    min-width: 225.26px;
+    width: 27.843554%;
+	}
+	#text-boxes {
+		height: auto;
+    margin-left: auto;
+    margin-top: 1.1875px;
+    clear: none;
+    margin-right: auto;
+	}
+}
+@media only screen and (max-width: 971px){
+
+}
