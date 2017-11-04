@@ -147,12 +147,9 @@ a.button.blue-button:hover {
   background-color: #275891;
 	color: #fff;
 }
-.slow-down {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
+.animated {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
-
 }
 .social-media-icons {
 	margin: 0 auto;
@@ -206,6 +203,14 @@ a.button.blue-button:hover {
     line-height: 55px;
     cursor: pointer;
 }
+.skills-list {
+  font-size: 18px;
+	list-style: none;
+	padding:0px 20px;
+}
+#myskills {
+    padding: 60px 0px;
+	}
 #cultiv8-img {
 	float: none;
   width: auto;
