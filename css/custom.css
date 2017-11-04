@@ -147,9 +147,36 @@ a.button.blue-button:hover {
   background-color: #275891;
 	color: #fff;
 }
-.animated {
+.slow-down {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
+
+}
+.slow-left {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+
+}
+.slow-right {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+
+}
+.slow-up {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+
+}
+.center-text {
+	text-align: center;
 }
 .social-media-icons {
 	margin: 0 auto;
